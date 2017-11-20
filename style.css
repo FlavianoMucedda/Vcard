@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(image/BG_vcard.jpg) no-repeat;
+  background-size: cover;
+}
+
+.box {
+  width: 600px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: White;
+  font-family: 'Josefin Sans', sans-serif;
+  border-radius: 25px 0px;
+}
+
+.box_profile {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  transform: rotate(-15deg);
+  border: solid 2px Teal;
+}
+.box h1 {
+  font-weight: 200;
+  font-size: 40px;
+  letter-spacing: 4px;
+}
+
+.box h5 {
+  font-weight: 100;
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+
+.box p {
+  text-align: center;
+}
+
+.box a {
+  text-decoration: none;
+  color: White;
+}
