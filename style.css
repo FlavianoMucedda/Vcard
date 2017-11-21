@@ -5,39 +5,95 @@ body {
   background-size: cover;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.box li {
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+
+.box li a{
+  color: White;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+i:hover{
+  color: Teal;
+  font-size: 40px;
+  animation: turn 500ms ease-in-out;
+}
+
+.box i {
+  transform-style: preserve-3d;
+  transition: all 250ms ease-in-out;
+}
+
 .box {
-  width: 600px;
-  background: rgba(0, 0, 0, 0.7);
+  width: 500px;
+  height: auto;
+  background: linear-gradient(to bottom , Black ,rgba(47,79,79, 0.7));
   padding: 40px;
-  text-align: center;
+  text-align:
+  center;
   margin: auto;
-  margin-top: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
   color: White;
   font-family: 'Josefin Sans', sans-serif;
-  border-radius: 25px 0px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 15px 4px rgba(195, 193, 142, 0.1);
+}
+
+i:active {
+transform: translateY(4px);
+
+}
+
+@keyframes turn {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
 }
 
 .box_profile {
   border-radius: 50%;
-  width: 180px;
-  height: 180px;
-  transform: rotate(-15deg);
-  border: solid 2px Teal;
+  width: 150px;
+  height: 150px;
+  border: solid 2px #c3c18e;
 }
 .box h1 {
   font-weight: 200;
   font-size: 40px;
   letter-spacing: 4px;
+  margin: 0;
+  margin-top: 2%;
+  padding: 0;
+  border-bottom: 1px solid White;
 }
 
 .box h5 {
   font-weight: 100;
   font-size: 25px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
+  color: Teal;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  line-height: 170%;
 }
 
 .box p {
   text-align: center;
+  font-size: 16px;
+  line-height: 150%;
 }
 
 .box a {
